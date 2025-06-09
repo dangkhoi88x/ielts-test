@@ -1,0 +1,95 @@
+/* Căn chỉnh trang chủ */
+.homepage {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+/* Tiêu đề chính */
+.homepage-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Cấu trúc chung của từng section */
+.section-homepage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  gap: 40px;
+}
+
+/* Đảo ngược flex khi cần */
+.section-reverse-homepage {
+  flex-direction: row-reverse;
+}
+
+/* Phần text bên trái */
+.text-content {
+  width: 50%;
+  text-align: left;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Phần hình ảnh bên phải */
+.section-image {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Nút bấm */
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive: Điều chỉnh trên màn hình nhỏ */
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-reverse-homepage {
+    flex-direction: column;
+  }
+
+  .text-content,
+  .section-image {
+    width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}

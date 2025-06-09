@@ -1,0 +1,100 @@
+.writing-page {
+  text-align: center;
+  max-width: 1300px;
+  margin: auto;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+/* Tiêu đề chính */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Mô tả */
+.description {
+  width: 50%;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+/* Cấu trúc chung của từng section */
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+/* Phần hình ảnh bên phải */
+.section-image {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+.image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.writing-time {
+  font-size: 20px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.writing-instructions {
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.instructions-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.instructions-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.instructions-list li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.test-selection h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.test-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.test-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.test-btn:hover {
+  background-color: #0056b3;
+}

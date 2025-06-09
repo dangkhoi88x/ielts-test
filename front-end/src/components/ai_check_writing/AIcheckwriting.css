@@ -1,0 +1,131 @@
+.writing-correction {
+  max-width: 80%;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.writing-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.writing-content-reverse {
+  flex-direction: row-reverse;
+}
+
+.writing-info {
+  width: 50%;
+  text-align: left;
+}
+
+.writing-info-task {
+  width: 100%;
+}
+
+.writing-info h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.writing-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.writing-info ul li {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.check-btn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: red;
+  color: white;
+  width: 45%;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.check-btn-task {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.check-btn:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.section-image {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+.image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.writing-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Phần AI Feedback */
+.ai-feedback {
+  margin-top: 30px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.ai-feedback h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.ai-feedback p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.ai-feedback ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ai-feedback ul li {
+  background: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}

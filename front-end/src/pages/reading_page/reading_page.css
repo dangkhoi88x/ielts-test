@@ -1,0 +1,92 @@
+/* Căn chỉnh toàn bộ trang */
+.reading-page {
+  text-align: center;
+  max-width: 1300px;
+  margin: auto;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+/* Tiêu đề */
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Chữ "select test" */
+.select-text {
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Khu vực chọn bài test */
+.test-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Nút bài test */
+.test-btn {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  transition: background 0.3s ease;
+}
+
+.test-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Mô tả */
+.description {
+  max-width: 1300px;
+  text-align: justify;
+  margin: auto;
+  font-size: 18px;
+  color: #333;
+}
+
+.description p {
+  margin-bottom: 10px;
+}
+
+.reading-time {
+  font-size: 20px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reading-instructions {
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.instructions-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.instructions-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.instructions-list li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
